@@ -2,15 +2,62 @@
     font-family: "Quicksand", Arial, sans-serif;
 }
 
+header {
+    background-color: #e5e5e5;
+    height: 10%;
+    border-bottom: solid 5px #cbcbcb;
+    align-items: center;
+}
+
+.nav-items {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    display: inline-block;
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    height: 35px;
+
+}
+
+nav {
+    float: right;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0px 17px 0 34px;
+    text-decoration: none;
+    color: #666666;
+    margin-left: 20px;
+    font-weight: bold;
+    border-left: solid 1px #cbcbcb;
+}
+
+nav a:first-child {
+    border-left: none;
+}
+
+
 body {
     margin: 0;
     background-image: url(assets/spiration-light.png);
 }
 
+h3 {
+    display: inline-block;
+}
+
 main {
     max-width: 1000px;
     margin: auto;
-    padding: 5%;
+    padding: 2%;
 }
 
 article {
@@ -34,7 +81,7 @@ article img {
 
 h1 {
     font-size: 36pt;
-    margin: 1% 0;
+    margin: 1% ;
 }
 
 aside {
@@ -42,7 +89,7 @@ aside {
     background-color: #e5e5e5; 
     height: 20%;
     margin: auto;
-    padding: 2% 5%
+    padding: 2% 
 }
 
 .icons {
@@ -58,6 +105,7 @@ h2 {
     font-size: 16pt;
     text-align: center;
 }
+
 main::after {
     content: "";
     display: block;
@@ -72,11 +120,12 @@ footer {
     align-items: center;
     background-color: #e5e5e5;
     height: 10%;
-    border-top: solid 10px #d7d7d7;
+    border-top: solid 5px #cbcbcb;
 }
 
 h1, h2, h3 {
     color: #ad102f;
+    text-transform: uppercase;
 }
 
 p {
@@ -87,6 +136,6 @@ p {
 hr {
     border: 0;
     height: 2px;
-    background-color: #d7d7d7;
+    background-color: #cbcbcb;
     margin-bottom: 20px;
 }
