@@ -30,6 +30,7 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     padding: 16px 20px; /* centers content vertically without clipping */
+    font-weight: bold;
 }
 
 /* clearfix so nav-items wraps its floats */
@@ -244,7 +245,6 @@ FOR VERTICAL LAYOUTS
         height: 15%;
         object-fit: contain;
 }
-
 
     
 }
